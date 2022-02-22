@@ -1,10 +1,10 @@
 <template>
 <lightning-card title="ContactInformation" icon-name="custom:custom14">
-   
+   <div>
        <template for:each={contacts} for:item="contact">
           <div key={contact.Id}>
              {contact.Name}, {contact.Title}
                 </template>
-   </div>
+   </div></div>
  </lightning-card>
 </template> 
